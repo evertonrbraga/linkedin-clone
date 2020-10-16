@@ -1,4 +1,6 @@
-import styled from 'styled-components';
+
+
+  import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
@@ -27,6 +29,10 @@ export const Container = styled.div`
   .banner {
     display: unset;
   }
+
+  .middle-column {
+      margin: 0 25px 16px;
+    }
 
   @media (max-width: 1180px) {
     .left-column,
