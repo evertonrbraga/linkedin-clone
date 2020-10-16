@@ -16,19 +16,22 @@ export const Container = styled.div`
       justify-content: center;
     }
 
-    .left-column,
-    .right-column {
-      display: unset;
+    > span {
+      margin-top: 52px;
+      padding: 8px 0;
     }
+  }
 
-    .middle-column {
-      margin: 0 25px 16px;
-    }
+  .left-column,
+  .right-column,
+  .banner {
+    display: unset;
   }
 
   @media (max-width: 1180px) {
     .left-column,
-    .right-column {
+    .right-column,
+    .banner {
       display: none;
     }
   }
