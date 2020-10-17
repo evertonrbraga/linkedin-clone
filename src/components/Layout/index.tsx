@@ -20,7 +20,7 @@ const Layout: React.FC = () => {
       </span>
 
       <main>
-        <LeftColumn />
+        <LeftColumn isLoading={true} />
         <MiddleColumn />
         <RightColumn />
       </main>
