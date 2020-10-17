@@ -29,8 +29,8 @@ const Layout: React.FC = () => {
 
       <main>
         <LeftColumn isLoading={isLoading} />
-        <MiddleColumn />
-        <RightColumn />
+        <MiddleColumn isLoading={isLoading} />
+        <RightColumn isLoading={isLoading} />
       </main>
     </Container>
   );
